@@ -1,0 +1,24 @@
+{
+  "name": "Slot Card Grid",
+  "organization": "Scaleleo",
+  "description": "Layout de cards por slot e dia da semana com métricas de email",
+  "logoUrl": "https://scaleleo.github.io/slot-viz/logo.png",
+  "organizationUrl": "https://scaleleo.github.io",
+  "supportUrl": "https://scaleleo.github.io/slot-viz/",
+  "privacyPolicyUrl": "https://scaleleo.github.io/slot-viz/",
+  "termsOfServiceUrl": "https://scaleleo.github.io/slot-viz/",
+  "packageUrl": "https://scaleleo.github.io/slot-viz/",
+  "devMode": true,
+  "components": [
+    {
+      "id": "slotcards",
+      "name": "Slot Card Grid",
+      "description": "Cards por slot e dia da semana",
+      "iconUrl": "https://scaleleo.github.io/slot-viz/logo.png",
+      "resource": {
+        "js": "https://scaleleo.github.io/slot-viz/index.js",
+        "config": "https://scaleleo.github.io/slot-viz/config.json"
+      }
+    }
+  ]
+}
