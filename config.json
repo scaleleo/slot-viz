@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Dados",
+      "elements": [
+        {
+          "id": "dimID_date",
+          "label": "Data",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "dimID_horario",
+          "label": "Horário",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "dimID_campaing_name",
+          "label": "Campanha",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricID_delivered",
+          "label": "Volume (Delivered)",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricID_open",
+          "label": "Opens",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricID_click",
+          "label": "Clicks",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metricID_rpc",
+          "label": "RPC",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": []
+}
